@@ -1,0 +1,16 @@
+//Revision 1
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config DFF;
+design final.DFF:schematic;
+liblist final;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+endconfig
