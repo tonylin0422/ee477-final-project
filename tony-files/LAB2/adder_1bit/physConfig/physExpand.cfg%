@@ -1,0 +1,16 @@
+//Revision 15
+//NOTE
+//VXL Configuration
+//END_NOTE
+
+config adder_1bit;
+design LAB2.adder_1bit:schematic;
+liblist LAB2;
+
+viewlist physConfig, schematic, symbol;
+
+constraintviewlist constraint;
+stoplist layout, abstract;
+
+
+endconfig

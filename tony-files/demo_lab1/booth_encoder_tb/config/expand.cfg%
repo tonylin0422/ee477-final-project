@@ -1,0 +1,13 @@
+//Revision 6
+config booth_encoder_tb;
+design final.booth_encoder_tb:schematic;
+liblist GSCLIB045, LAB1, LAB2, LAB3, analogLib, basic, ee477, final, gpdk045, gsclib045, gsclib045_tech, sheets;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist spectre;
+
+
+cell final.booth_encoder binding :av_extracted;
+
+
+endconfig

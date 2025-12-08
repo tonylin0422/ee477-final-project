@@ -1,0 +1,14 @@
+//Revision 1
+config inv_tb;
+design LAB1.inv_tb:schematic;
+liblist GSCLIB045, LAB1, analogLib, basic, ee477, gpdk045, gsclib045, gsclib045_tech, sheets;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist spectre;
+
+
+cell LAB1.INV_1X binding :av_extracted;
+cell LAB1.INV_2X binding :av_extracted;
+
+
+endconfig

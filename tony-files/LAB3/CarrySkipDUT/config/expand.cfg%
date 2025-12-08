@@ -1,0 +1,18 @@
+//Revision 1
+config CarrySkipDUT;
+design LAB3.CarrySkipDUT:schematic;
+liblist GSCLIB045, LAB1, LAB2, LAB3, analogLib, basic, ee477, gpdk045, gsclib045, gsclib045_tech, sheets;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist spectre;
+
+
+cell LAB3.CarrySkip8 binding :av_extracted;
+
+cell LAB1.INV_1X binding :av_extracted;
+cell LAB1.INV_2X binding :av_extracted;
+cell LAB1.NAND2_1X binding :av_extracted;
+cell LAB1.NAND2_2X binding :av_extracted;
+
+
+endconfig

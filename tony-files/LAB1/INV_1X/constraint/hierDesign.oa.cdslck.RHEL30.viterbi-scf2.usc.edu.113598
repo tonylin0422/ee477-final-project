@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      tlin9034
+HostName                       viterbi-scf2.usc.edu
+ProcessIdentifier              113598
+ProcessCreationTime_UTC        1758079480
+ProcessCreationTime_Readable   Tue Sep 16 20:24:40 2025 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/viterbi/09/tlin9034/work_gpdk045/LAB1/INV_1X/constraint/hierDesign.oa.cdslck.dirlck
+TimeEditLocked                 Tue Sep 16 22:22:20 2025 PDT
